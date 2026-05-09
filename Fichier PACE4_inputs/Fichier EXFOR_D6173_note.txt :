@@ -1,0 +1,30 @@
+EXFOR DATABASE NOTE — 12C + 59Co
+==================================
+
+Entry: D6173
+Reference: F.K. Amanuel et al., Eur. Phys. J. A 47, 156 (2011)
+Access: https://www-nds.iaea.org/exfor
+
+IMPORTANT LIMITATION:
+D6173 contains ONLY α-emission channels (subentries .009–.012):
+  D6173.009 → αn channel (66Ga)
+  D6173.010 → α2n channel (65Ga)
+  D6173.011 → αpn channel
+  D6173.012 → αp2n channel
+
+CF-DOMINATED CHANNELS ARE ABSENT:
+  p3n → 67Ge  (NOT in EXFOR)
+  2p2n → 67Ga (NOT in EXFOR)
+
+These CF channels were measured in:
+  A. Agarwal, I.A. Rizvi, A.K. Chaubey, Phys. Rev. C 65, 034604 (2002)
+  but have not been compiled into EXFOR for this system.
+
+RECOMMENDATION:
+Compilation of Agarwal et al. [2002] CF-dominated channels into EXFOR D6173
+is recommended to enable direct CF validation from the database.
+
+CITATION ERROR NOTE:
+Amanuel et al. [2011] cites the Agarwal paper as "034605" — this is incorrect.
+The correct page number is 034604.
+PRC vol. 65, 034605 is an unrelated paper (Raduta et al., fission dynamics).
