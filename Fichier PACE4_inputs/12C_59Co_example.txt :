@@ -1,0 +1,28 @@
+PACE4 INPUT EXAMPLE
+12C + 59Co → 71As*
+====================
+
+Projectile: 12C  (Z=6, A=12)
+Target:     59Co (Z=27, A=59)
+Compound nucleus: 71As*
+
+Energies (Lab frame): 60, 65, 70, 75, 80 MeV
+E/V_CB range: 1.62 – 2.16
+
+Fusion Model: Bass barrier
+Optical Model: Perey-Perey parameterisation [Phys. Rev. 132, 755 (1963)]
+Level Density: Gilbert-Cameron [Can. J. Phys. 43, 1446 (1965)]
+  Parameter a = A/9 MeV⁻¹ = 7.89 MeV⁻¹ (A=71)
+Monte Carlo cascades: 100,000 per energy point
+
+Predicted σ_CN (plateau, all energies): ~1250 mb
+  60 MeV: 1248 mb
+  65 MeV: 1253 mb
+  70 MeV: 1251 mb
+  75 MeV: 1250 mb
+  80 MeV: 1248 mb
+
+Note: PACE4 is a CF-only code. It does not include ICF mechanisms.
+The rising αn (66Ga) channel above 70 MeV is therefore NOT reproducible by PACE4.
+
+Reference: A. Gavron, Phys. Rev. C 21, 230 (1980)
